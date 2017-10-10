@@ -5,11 +5,9 @@ import { Component, OnInit } from '@angular/core';
   template: `<div>{{text}}</div><input type="text" [(ngModel)]="text">`
 })
 export class AppComponent implements OnInit {
-  text: string;
+  text = 'Hello';
 
-  constructor() {
-    this.text = 'Hello';
-  }
+  constructor() { }
 
   ngOnInit() { }
 }
