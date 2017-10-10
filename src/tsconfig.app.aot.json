@@ -1,9 +1,12 @@
 {
   "extends": "./tsconfig.app.json",
   "compilerOptions": {
-    "outDir": "../"
+    "outDir": "../out-tsc/app-aot"
   },
   "exclude": [
     "main.jit.ts"
-  ]
+  ],
+  "angularCompilerOptions": {
+    "annotateForClosureCompiler": true
+  }
 }

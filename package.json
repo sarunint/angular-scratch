@@ -21,8 +21,11 @@
     "zone.js": "^0.8.18"
   },
   "devDependencies": {
-    "tslint": "^5.7.0",
     "rollup": "^0.50.0",
+    "rollup-plugin-commonjs": "^8.2.1",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-uglify-es": "0.0.1",
+    "tslint": "^5.7.0",
     "typescript": "^2.5.3"
   }
 }
